@@ -1,102 +1,150 @@
-Python Encryption Tool - AES, DES, RSA
-This is a Python-based encryption and decryption tool that supports three popular encryption algorithms: AES, DES, and RSA. The program is interactive and menu-driven, allowing users to easily encrypt and decrypt messages using symmetric or asymmetric encryption.
+# Python Encryption Tool - AES, DES, RSA
 
-![Alternative Text](URL_OF_IMAGE)
+This is a **Python-based encryption and decryption tool** that supports three popular encryption algorithms: **AES**, **DES**, and **RSA**. The program is **interactive and menu-driven**, allowing users to easily encrypt and decrypt messages using symmetric or asymmetric encryption.
 
-Features
-AES (Advanced Encryption Standard)
-Symmetric encryption: Uses the same key for encryption and decryption.
+---
 
-Custom Keys: Users can provide a custom key (automatically padded or truncated to 16 bytes).
+## **Features**
 
-Secure Mode: Uses EAX mode for authenticated encryption.
+- **AES (Advanced Encryption Standard)**
+  - Symmetric encryption (same key for encryption & decryption)
+  - User can provide a custom key (padded/truncated to 16 bytes)
+  - Uses **EAX mode** for authentication
 
-DES (Data Encryption Standard)
-Symmetric encryption: Traditional symmetric algorithm.
+- **DES (Data Encryption Standard)**
+  - Symmetric encryption
+  - User can provide a custom key (padded/truncated to 8 bytes)
+  - Uses **ECB mode** for simplicity
 
-Custom Keys: Users can provide a custom key (padded or truncated to 8 bytes).
+- **RSA (Rivest–Shamir–Adleman)**
+  - Asymmetric encryption (public key encrypts, private key decrypts)
+  - Automatically generates public/private key pair
+  - Uses **PKCS1_OAEP padding**
+  - Suitable for small messages or keys
 
-Mode: Uses ECB mode for simplicity.
+- **Menu-driven interface**
+  - Choose encryption algorithm at runtime
+  - Encrypt and decrypt messages interactively
 
-RSA (Rivest–Shamir–Adleman)
-Asymmetric encryption: Uses a public key to encrypt and a private key to decrypt.
+---
 
-Automatic Key Gen: Automatically generates a public/private key pair.
+## **Requirements**
 
-Padding: Uses PKCS1_OAEP padding for enhanced security.
+- Python 3.x  
+- `pycryptodome` library
 
-Usage: Best suited for small messages or encrypting other keys.
+Install `pycryptodome` using pip:
 
-General Features
-Menu-driven interface: Choose your algorithm at runtime.
-
-Interactive: Encrypt and decrypt messages step-by-step.
-
-Requirements
-Python 3.x
-
-pycryptodome library
-
-Install pycryptodome using pip:
-
-Bash
+```bash
 pip install pycryptodome
-How to Use
-Run the program by typing:
 
-Bash
+
+How to Use
+
+1. Run the program
+
+2. Open your terminal or command prompt and run:
+
 python main.py
-Navigate the menu:
+
+3. Menu Selection
+
+4. You will see the following menu:
 
 === Encryption Menu ===
+1. AES
+2. DES
+3. RSA
+4. Exit
+Choose an option (1-4):
 
-AES
 
-DES
+Enter the number corresponding to the encryption algorithm you want to use.
 
-RSA
+Follow the Prompts
 
-Exit
+AES / DES: Enter the text you want to encrypt and provide a custom key. The program will automatically pad or truncate the key to the required length.
 
-Follow the prompts:
+RSA: Enter the text you want to encrypt. The program generates a public/private key pair automatically.
 
-For AES/DES: Enter the text you want to encrypt and provide your chosen key.
+View Results
+The program will display:
 
-For RSA: Simply enter the text; the program handles the key generation for you.
+Encrypted text
 
-View Results: The program will display the Encrypted text and then immediately verify it by showing the Decrypted text.
+Decrypted text
 
 Example Output
-AES Selection:
 
-Choose an option (1-4): 1
+AES:
 
 Enter text to encrypt (AES): Hello World
-
-Enter AES key: mysecretkey
-
+Enter AES key (any length, will pad to 16 chars): mysecretkey
 Encrypted: Rz/8R7v7o1t0kZ...
-
 Decrypted: Hello World
 
-RSA Selection:
 
-Choose an option (1-4): 3
+DES:
+
+Enter text to encrypt (DES): Secret Message
+Enter DES key (any length, will pad to 8 chars): key123
+Encrypted: q8VJf+3YpR...
+Decrypted: Secret Message
+
+
+RSA:
 
 Enter text to encrypt (RSA): Confidential
-
 Encrypted: eKx8jU9M2Q...
-
 Decrypted: Confidential
 
-Important Notes
-Padding: AES keys are automatically padded to 16 bytes, and DES keys to 8 bytes.
 
-RSA Keys: New keys are generated every time the program runs; they are not saved to disk in this version.
+Notes
 
-Security Warning: While this tool is great for learning, DES/ECB is considered insecure for modern sensitive data. AES/EAX is the recommended choice for security.
+AES key must be 16 bytes (automatically padded if shorter).
+
+DES key must be 8 bytes (automatically padded if shorter).
+
+RSA keys are generated automatically each time the program runs.
+
+For real-world applications, AES with EAX mode is secure; DES with ECB mode is not recommended.
+
+Features
+
+AES (Advanced Encryption Standard)
+
+Symmetric encryption (same key for encryption & decryption)
+
+User can provide a custom key (padded/truncated to 16 bytes)
+
+Uses EAX mode for authentication
+
+DES (Data Encryption Standard)
+
+Symmetric encryption
+
+User can provide a custom key (padded/truncated to 8 bytes)
+
+Uses ECB mode for simplicity
+
+RSA (Rivest–Shamir–Adleman)
+
+Asymmetric encryption (public key encrypts, private key decrypts)
+
+Automatically generates public/private key pair
+
+Uses PKCS1_OAEP padding
+
+Suitable for small messages or keys
+
+Menu-driven interface
+
+Choose encryption algorithm at runtime
+
+Encrypt and decrypt messages interactively
 
 Author
+
 Pranav Hemant Mulik
 
 GitHub: PranavMulik
