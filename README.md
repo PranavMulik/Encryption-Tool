@@ -36,6 +36,8 @@ Install `pycryptodome` using pip:
 ```bash
 pip install pycryptodome
 
+---
+
 How to Use
 
 Run the program by typing:
@@ -59,6 +61,8 @@ Follow the prompts:
 For AES/DES: Enter the text to encrypt and provide a custom key.
 
 For RSA: Enter the text to encrypt, and the program will handle key generation automatically.
+
+---
 
 The program will display:
 
@@ -140,5 +144,6 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
