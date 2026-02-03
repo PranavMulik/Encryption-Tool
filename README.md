@@ -37,7 +37,7 @@ Install `pycryptodome` using pip:
 
 ```bash
 pip install pycryptodome
-
+bash ```
 
 How to Use
 
@@ -150,3 +150,4 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
