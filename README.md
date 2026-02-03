@@ -10,7 +10,7 @@ This is a **Python-based encryption and decryption tool** that supports three po
 
 - **AES (Advanced Encryption Standard)**
   - Symmetric encryption (same key for encryption & decryption)
-  - User can provide a custom key (padded/truncated to 16 bytes)![Project](https://github.com/user-attachments/assets/a2cea18e-e18a-4091-a74e-5154eb682f85)
+  - User can provide a custom key (padded/truncated to 16 bytes)
 
   - Uses **EAX mode** for authentication
 
@@ -155,6 +155,7 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
 
