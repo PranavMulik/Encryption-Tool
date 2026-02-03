@@ -36,26 +36,29 @@ Install `pycryptodome` using pip:
 ```bash
 pip install pycryptodome
 
-**How to Use**
-1. Run the program:
+How to Use
 
+Run the program by typing:
 python main.py
 
-
-2. You will see the menu:
+You will see the menu:
 
 === Encryption Menu ===
-1. AES
-2. DES
-3. RSA
-4. Exit
-Choose an option (1-4):
 
-3. Follow the prompts:
+AES
 
-AES/DES: Enter text to encrypt and provide a custom key.
+DES
 
-RSA: Enter text to encrypt (keys are generated automatically).
+RSA
+
+Exit
+Choose an option (1-4)
+
+Follow the prompts:
+
+For AES/DES: Enter the text to encrypt and provide a custom key.
+
+For RSA: Enter the text to encrypt, and the program will handle key generation automatically.
 
 The program will display:
 
@@ -137,4 +140,5 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
