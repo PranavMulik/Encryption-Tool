@@ -38,7 +38,7 @@ pip install pycryptodome
 
 ---
 
-How to Use
+## **How to Use**
 
 Run the program by typing:
 python main.py
@@ -144,6 +144,7 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
 
