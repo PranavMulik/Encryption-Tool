@@ -35,9 +35,8 @@ This is a **Python-based encryption and decryption tool** that supports three po
 
 Install `pycryptodome` using pip:
 
-```bash
 pip install pycryptodome
-```bash
+
 
 How to Use
 
@@ -150,5 +149,6 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
