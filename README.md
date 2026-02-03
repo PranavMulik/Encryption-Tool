@@ -55,7 +55,7 @@ RSA
 
 Exit
 Choose an option (1-4)
-
+---
 Follow the prompts:
 
 For AES/DES: Enter the text to encrypt and provide a custom key.
@@ -144,6 +144,7 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
 
