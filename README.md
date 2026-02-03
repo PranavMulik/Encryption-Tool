@@ -2,7 +2,7 @@
 
 This is a **Python-based encryption and decryption tool** that supports three popular encryption algorithms: **AES**, **DES**, and **RSA**. The program is **interactive and menu-driven**, allowing users to easily encrypt and decrypt messages using symmetric or asymmetric encryption.
 
-![Uploading Project.jpg…]()
+![Alt Text]("C:\Users\Sanika Mulik\Downloads\Project.jpg")
 
 
 
@@ -156,6 +156,7 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
 
