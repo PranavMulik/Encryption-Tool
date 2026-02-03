@@ -36,7 +36,7 @@ Install `pycryptodome` using pip:
 ```bash
 pip install pycryptodome
 
-How to Use
+**How to Use**
 1. Run the program:
 
 python main.py
@@ -137,3 +137,4 @@ Pranav Hemant Mulik
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
