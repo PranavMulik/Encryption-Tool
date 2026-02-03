@@ -2,17 +2,14 @@
 
 This is a **Python-based encryption and decryption tool** that supports three popular encryption algorithms: **AES**, **DES**, and **RSA**. The program is **interactive and menu-driven**, allowing users to easily encrypt and decrypt messages using symmetric or asymmetric encryption.
 
-![Alt Text]("C:\Users\Sanika Mulik\Downloads\Project.jpg")
-
-
-
 ---
 
 ## **Features**
 
 - **AES (Advanced Encryption Standard)**
   - Symmetric encryption (same key for encryption & decryption)
-  - User can provide a custom key (padded/truncated to 16 bytes)
+  - User can provide a custom key (padded/truncated to 16 bytes)![Project](https://github.com/user-attachments/assets/a2cea18e-e18a-4091-a74e-5154eb682f85)
+
   - Uses **EAX mode** for authentication
 
 - **DES (Data Encryption Standard)**
@@ -159,6 +156,8 @@ Email: pranavmulik5@gmail.com
 
 
 
+
+![Project](https://github.com/user-attachments/assets/264b2a21-2746-4c27-8a57-e9c1e58d55fa)
 
 
 
