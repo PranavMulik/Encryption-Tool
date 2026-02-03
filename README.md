@@ -37,8 +37,9 @@ Install `pycryptodome` using pip:
 
 pip install pycryptodome
 
+---
 
-How to Use
+## **How to Use**
 
 1. Run the program
 
@@ -60,13 +61,13 @@ Choose an option (1-4):
 
 Enter the number corresponding to the encryption algorithm you want to use.
 
-Follow the Prompts
+## **Follow the Prompts**
 
 AES / DES: Enter the text you want to encrypt and provide a custom key. The program will automatically pad or truncate the key to the required length.
 
 RSA: Enter the text you want to encrypt. The program generates a public/private key pair automatically.
 
-View Results
+## **View Results**
 The program will display:
 
 Encrypted text
@@ -98,7 +99,7 @@ Encrypted: eKx8jU9M2Q...
 Decrypted: Confidential
 
 
-Notes
+## **Notes**
 
 AES key must be 16 bytes (automatically padded if shorter).
 
@@ -108,7 +109,7 @@ RSA keys are generated automatically each time the program runs.
 
 For real-world applications, AES with EAX mode is secure; DES with ECB mode is not recommended.
 
-Features
+## **Features**
 
 AES (Advanced Encryption Standard)
 
@@ -142,13 +143,16 @@ Choose encryption algorithm at runtime
 
 Encrypt and decrypt messages interactively
 
-Author
+---
+
+**Author**
 
 Pranav Hemant Mulik
 
 GitHub: PranavMulik
 
 Email: pranavmulik5@gmail.com
+
 
 
 
